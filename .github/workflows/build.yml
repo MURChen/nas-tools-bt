@@ -53,4 +53,4 @@ jobs:
             linux/arm64
           push: true
           tags: |
-            ${{ secrets.DOCKER_USERNAME }}/nastoolsa:${{ env.app_version }}
+            ${{ secrets.DOCKER_USERNAME }}/nastoolsa:3.2.9
